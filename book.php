@@ -1,5 +1,5 @@
 <?php
-@mysql_connect("localhost","root","");
+mysql_connect("127.10.75.2:3306","adminqALkDCf","reUky8W-Z5DB");
 mysql_select_db("t2d_db");
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8

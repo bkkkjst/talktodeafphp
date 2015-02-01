@@ -1,9 +1,10 @@
 <?php
-@mysql_connect("localhost","root","");
+mysql_connect("127.10.75.2:3306","adminqALkDCf","reUky8W-Z5DB");
 mysql_select_db("t2d_db");
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
+
 
 $q=mysql_query("SELECT vocabulary.id, "
 			."vocabulary.voc_name,"
@@ -29,4 +30,3 @@ function jsonRemoveUnicodeSequences($struct) {
 print jsonRemoveUnicodeSequences($output);
 mysql_close();
 ?>
-

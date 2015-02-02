@@ -5,30 +5,30 @@ mysql_select_db("t2d_db");
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
 
-$q=mysql_query("SELECT\n".
-"vocabulary.id,\n".
-"vocabulary.voc_name,\n".
-"vocabulary.voc_des,\n".
-"video.vid_name,\n".
-"video.vid_path,\n".
-"type.type_name,\n".
-"image.img_name,\n".
-"image.img_path,\n".
-"example.exam,\n".
-"category.name_cat\n".
-"FROM\n".
-"vocabulary ,\n".
-"video ,\n".
-"type ,\n".
-"image ,\n".
-"example ,\n".
-"category\n".
-"WHERE\n".
-"vocabulary.category_id = 1 AND\n".
-"vocabulary.video_id = video.id AND\n".
-"vocabulary.type_id = type.id AND\n".
-"vocabulary.image_id = image.id AND\n".
-"vocabulary.example_id = example.id AND\n".
+$q=mysql_query("SELECT ".
+"vocabulary.id, ".
+"vocabulary.voc_name, ".
+"vocabulary.voc_des, ".
+"video.vid_name, ".
+"video.vid_path, ".
+"type.type_name, ".
+"image.img_name, ".
+"image.img_path, ".
+"example.exam, ".
+"category.name_cat ".
+"FROM ".
+"vocabulary , ".
+"video , ".
+"type , ".
+"image , ".
+"example , ".
+"category ".
+"WHERE ".
+"vocabulary.category_id = 1 AND ".
+"vocabulary.video_id = video.id AND ".
+"vocabulary.type_id = type.id AND ".
+"vocabulary.image_id = image.id AND ".
+"vocabulary.example_id = example.id AND ".
 "vocabulary.category_id = category.id");
 			
 while($e=mysql_fetch_assoc($q))

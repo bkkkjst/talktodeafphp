@@ -1,0 +1,1266 @@
+2015/01/30 15:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/
+---
+2015/01/30 15:56:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php
+---
+2015/01/30 15:56:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/login
+---
+2015/01/30 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/login
+---
+2015/01/30 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/login
+---
+2015/01/30 15:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/login
+---
+2015/01/30 15:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=site/login
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/login
+---
+2015/01/30 15:58:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionIndex".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionIndex')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionIndex')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/
+---
+2015/01/30 15:58:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionIndex".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionIndex')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionIndex')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php
+HTTP_REFERER=http://localhost/talktodeaf/
+---
+2015/01/30 15:58:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionIndex".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionIndex')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionIndex')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/index
+---
+2015/01/30 15:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actionIndex".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('actionIndex')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('actionIndex')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=site/index
+---
+2015/01/30 16:04:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/
+---
+2015/01/30 16:04:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/
+---
+2015/01/30 16:04:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/
+---
+2015/01/30 16:04:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('login')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/
+---
+2015/01/30 16:57:57 [error] [exception.CException] exception 'CException' with message 'Property "Image.image_name" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('image_name', 'noimage.jpg')
+#1 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(83): CActiveRecord->__set('image_name', 'noimage.jpg')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionCreate()
+#3 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/create')
+#13 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/create
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/create
+---
+2015/01/30 16:58:24 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (86)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:01:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php:165
+Stack trace:
+#0 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(128): ImageController->loadModel('76')
+#1 [internal function]: ImageController->actionDelete('76')
+#2 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ImageController), Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ImageController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\CController.php(1116): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('delete')
+#16 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/delete')
+#17 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/delete&id=76
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=76
+---
+2015/01/30 17:01:16 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (86)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:02:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/admin')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/admin
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=77
+---
+2015/01/30 17:02:52 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (86)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:06:50 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:07:34 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:10:21 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 17:14:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php:164
+Stack trace:
+#0 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(55): ImageController->loadModel('81')
+#1 [internal function]: ImageController->actionView('81')
+#2 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ImageController), Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ImageController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/view')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/view&id=81
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/create
+---
+2015/01/30 17:14:55 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php:164
+Stack trace:
+#0 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(55): ImageController->loadModel('82')
+#1 [internal function]: ImageController->actionView('82')
+#2 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ImageController), Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ImageController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/view')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/view&id=82
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/create
+---
+2015/01/30 23:15:52 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:24:21 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:25:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php:164
+Stack trace:
+#0 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(55): ImageController->loadModel('84')
+#1 [internal function]: ImageController->actionView('84')
+#2 C:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ImageController), Array)
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ImageController), Object(ReflectionMethod), Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('view')
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/view')
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/view&id=84
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/create
+---
+2015/01/30 23:25:46 [warning] [application] Failed to set unsafe attribute "path_img" of "Image".
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (69)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:35:05 [error] [php] Undefined variable: assetsDir (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:35:24 [error] [php] Undefined variable: images (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:35:46 [error] [php] Undefined variable: imagesDir (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:37:03 [error] [php] Undefined variable: imagesDir (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:37:04 [error] [php] Undefined variable: imagesDir (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:37:05 [error] [php] Undefined variable: imagesDir (C:\wamp\www\TalktoDeaf\protected\views\image\index.php:52)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(869): ImageController->renderFile()
+#1 C:\wamp\www\yii\framework\web\CController.php(782): ImageController->renderPartial()
+#2 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): ImageController->render()
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#4 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#6 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#9 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#12 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#13 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+in C:\wamp\www\TalktoDeaf\protected\views\image\index.php (52)
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (162)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/30 23:43:57 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:44:31 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(63): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:46:33 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:50 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:51 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:51 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:52 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:52 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:52 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:47:52 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(60): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:50:47 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', 'alt')
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(61): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/30 23:56:02 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', '')
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(61): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/31 00:07:29 [error] [exception.CException] exception 'CException' with message 'Property "CDataColumn.0" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(220): CComponent->__set('0', Array)
+#1 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(388): YiiBase::createComponent(Array, Object(CGridView))
+#2 C:\wamp\www\yii\framework\zii\widgets\grid\CGridView.php(359): CGridView->initColumns()
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(147): CGridView->init()
+#4 C:\wamp\www\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 C:\wamp\www\TalktoDeaf\protected\views\image\index.php(64): CBaseController->widget('zii.widgets.gri...', Array)
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Tal...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Tal...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Tal...', Array, true)
+#9 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#11 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#12 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#22 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\wamp\www\TalktoDeaf\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/talktodeaf/index.php?r=image/index
+HTTP_REFERER=http://localhost/talktodeaf/index.php?r=image/view&id=85
+---
+2015/01/31 00:31:31 [error] [php] Undefined variable: model (C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php:92)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): ImageController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): ImageController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(265): ImageController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(282): ImageController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\wamp\www\TalktoDeaf\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf/index.php?r=image/create
+in C:\wamp\www\TalktoDeaf\protected\controllers\ImageController.php (92)
+in C:\wamp\www\TalktoDeaf\index.php (13)
+2015/01/31 17:49:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 't2d_db'' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Image))
+#7 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(155): CActiveRecord->__construct('search')
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/BackEndApp/index.php?r=image/index
+HTTP_REFERER=http://localhost/BackEndApp/
+---
+2015/01/31 17:50:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 't2d_db'' in C:\wamp\www\yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbConnection.php(330): CDbConnection->open()
+#1 C:\wamp\www\yii\framework\db\CDbConnection.php(308): CDbConnection->setActive(true)
+#2 C:\wamp\www\yii\framework\base\CModule.php(387): CDbConnection->init()
+#3 C:\wamp\www\yii\framework\base\CApplication.php(450): CModule->getComponent('db')
+#4 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(634): CApplication->getDb()
+#5 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(2361): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Image))
+#7 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#8 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(155): CActiveRecord->__construct('search')
+#9 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#10 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/BackEndApp/index.php?r=image/index
+HTTP_REFERER=http://localhost/BackEndApp/
+---
+2015/02/01 14:35:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\wamp\www\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/admin')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/backendapp/index.php?r=image/admin
+HTTP_REFERER=http://localhost/backendapp/index.php?r=image/create
+---
+2015/02/02 18:21:14 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 18:23:26 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 18:24:25 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 18:24:27 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 18:24:41 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/index.php?
+---
+2015/02/02 18:28:35 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/index.php?
+---
+2015/02/02 18:28:37 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/index.php?
+---
+2015/02/02 18:28:38 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/index.php?
+---
+2015/02/02 18:28:48 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 18:31:37 [error] [exception.CException] exception 'CException' with message 'Property "Image.id_img" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('id_img')
+#1 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('id_img')
+#2 C:\wamp\www\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Image), 'id_img')
+#3 C:\wamp\www\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Image), 'id_img', Array)
+#4 C:\wamp\www\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Image), 'id_img', Array)
+#5 C:\wamp\www\BackEndApp\protected\views\image\_search.php(16): CActiveForm->textField(Object(Image), 'id_img')
+#6 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#8 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#9 C:\wamp\www\BackEndApp\protected\views\image\index.php(40): CController->renderPartial('_search', Array)
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(126): require('C:\\wamp\\www\\Bac...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\wamp\\www\\Bac...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\wamp\\www\\Bac...', Array, true)
+#13 C:\wamp\www\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\wamp\www\BackEndApp\protected\controllers\ImageController.php(162): CController->render('index', Array)
+#15 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): ImageController->actionIndex()
+#16 C:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#25 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('image/index')
+#26 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#28 {main}
+REQUEST_URI=/backendapp/index.php?r=image/index
+HTTP_REFERER=http://localhost/backendapp/
+---
+2015/02/02 19:22:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii'".' in C:\wamp\www\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('gii'')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\wamp\www\BackEndApp\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/backendapp/index.php?r=gii%27
+---

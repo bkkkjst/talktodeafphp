@@ -15,7 +15,7 @@ $q=mysql_query("SELECT ".
 "image.img_name, ".
 "image.img_path, ".
 "example.exam, ".
-"category.name_cat ".
+"category.cat_name ".
 "FROM ".
 "vocabulary , ".
 "video , ".

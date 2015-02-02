@@ -24,7 +24,7 @@ $q=mysql_query("SELECT ".
 "example , ".
 "category ".
 "WHERE ".
-"vocabulary.category_id = 1 AND ".
+"vocabulary.id = 1 AND ".
 "vocabulary.video_id = video.id AND ".
 "vocabulary.type_id = type.id AND ".
 "vocabulary.image_id = image.id AND ".

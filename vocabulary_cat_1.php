@@ -6,12 +6,12 @@ mysql_select_db("t2d_db");
 mysql_query("SET NAMES UTF8");
 
 $q=mysql_query("SELECT "
-		+"vocabulary.id, "
-		+"vocabulary.voc_name "
-		+"FROM "
-		+"vocabulary "
-		+"WHERE "
-		+"vocabulary.category_id = 1");
+		."vocabulary.id, "
+		."vocabulary.voc_name "
+		."FROM "
+		."vocabulary "
+		."WHERE "
+		."vocabulary.category_id = 1");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

@@ -13,7 +13,9 @@ $q=mysql_query("SELECT\n".
 "information.phone,\n".
 "information.`long`\n".
 "FROM\n".
-"information");
+"information\n".
+"WHERE\n".
+"information.id = 1");
 			
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;

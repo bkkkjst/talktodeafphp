@@ -4,6 +4,7 @@ mysql_select_db("talktodeaf_db");
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
+$ID = $_GET['id'];
 
 $q=mysql_query("SELECT * FROM category");
 while($e=mysql_fetch_assoc($q))

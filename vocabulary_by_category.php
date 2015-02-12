@@ -12,7 +12,8 @@ $q=mysql_query("SELECT\n".
 "vocabulary ,\n".
 "category\n".
 "WHERE\n".
-"category.cat_name = '".$cat_name."'");
+"category.cat_name = '".$cat_name."' AND\n".
+"vocabulary.category_id = category.id");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

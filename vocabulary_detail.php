@@ -6,7 +6,6 @@ mysql_select_db("talktodeaf_db");
 mysql_query("SET NAMES UTF8");
 
 $voc_name = $_GET['voc_name'];
-echo $voc_name;
 
 $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".

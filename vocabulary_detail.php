@@ -8,30 +8,30 @@ mysql_query("SET NAMES UTF8");
 $voc_name = $_GET['voc_name'];
 echo $voc_name;
 
-$q=mysql_query("SELECT ".
-"vocabulary.id, ".
-"vocabulary.voc_name, ".
-"vocabulary.voc_des, ".
-"video.vid_name, ".
-"video.vid_path, ".
-"type.type_name, ".
-"image.img_name, ".
-"image.img_path, ".
-"example.exam, ".
-"category.cat_name ".
-"FROM ".
-"vocabulary , ".
-"video , ".
-"type , ".
-"image , ".
-"example , ".
-"category ".
-"WHERE ".
-"vocabulary.voc_name = '".$voc_name."' AND ".
-"vocabulary.video_id = video.id AND ".
-"vocabulary.type_id = type.id AND ".
-"vocabulary.image_id = image.id AND ".
-"vocabulary.example_id = example.id AND ".
+$q=mysql_query("SELECT\n".
+"vocabulary.id,\n".
+"vocabulary.voc_name,\n".
+"video.vid_name,\n".
+"type.type_name,\n".
+"image.img_name,\n".
+"example.exam,\n".
+"description.des_name,\n".
+"category.cat_name\n".
+"FROM\n".
+"vocabulary ,\n".
+"video ,\n".
+"type ,\n".
+"image ,\n".
+"example ,\n".
+"description ,\n".
+"category\n".
+"WHERE\n".
+"vocabulary.voc_name = '".$voc_name."' AND\n".
+"vocabulary.video_id = video.id AND\n".
+"vocabulary.type_id = type.id AND\n".
+"vocabulary.img_id = image.id AND\n".
+"vocabulary.example_id = example.id AND\n".
+"vocabulary.des_id = description.id AND\n".
 "vocabulary.category_id = category.id");
 			
 while($e=mysql_fetch_assoc($q))

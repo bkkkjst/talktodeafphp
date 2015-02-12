@@ -5,6 +5,8 @@ mysql_select_db("talktodeaf_db");
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
 
+$voc_name = $_GET["voc_name"];
+
 $q=mysql_query("SELECT ".
 "vocabulary.id, ".
 "vocabulary.voc_name, ".
@@ -24,7 +26,7 @@ $q=mysql_query("SELECT ".
 "example , ".
 "category ".
 "WHERE ".
-"vocabulary.voc_name = '".$_GET['voc_name']."' AND ".
+"vocabulary.voc_name = '".$voc_name."' AND ".
 "vocabulary.video_id = video.id AND ".
 "vocabulary.type_id = type.id AND ".
 "vocabulary.image_id = image.id AND ".

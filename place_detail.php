@@ -14,8 +14,8 @@ $q=mysql_query("SELECT\n".
 "place.place_name,\n".
 "place.address,\n".
 "place.phone,\n".
-"place.`long`,\n".
-"place.lat\n".
+"place.latitude,\n".
+"place.longitude\n".
 "FROM\n".
 "place");
 while($e=mysql_fetch_assoc($q))

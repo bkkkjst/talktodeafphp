@@ -12,9 +12,12 @@ $q=mysql_query("SELECT\n".
 "video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"video\n".
+"video ,\n".
+"category\n".
 "WHERE\n".
-"vocabulary.video_id = video.id");
+"vocabulary.video_id = video.id AND\n".
+"category.cat_name = '".$cat_name."' AND\n".
+"vocabulary.category_id = category.id");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

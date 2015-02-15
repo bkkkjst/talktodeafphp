@@ -21,7 +21,7 @@ $q=mysql_query("SELECT\n".
 "FROM\n".
 "place\n".
 "WHERE\n".
-"place.place_name = {$place_name}");
+"place.place_name = '{$place_name}'");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

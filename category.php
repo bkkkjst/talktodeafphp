@@ -1,5 +1,8 @@
 <?php
 include("connection.php");
+?>
+
+<?php
 mysql_connect($hostname,$username,$password);
 mysql_select_db($db_name);
 

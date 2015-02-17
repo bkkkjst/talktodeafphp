@@ -8,16 +8,16 @@ mysql_select_db($db_name);
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
-$cate_name = $_GET['cate_name'];
+$cat_name = $_GET['cat_name'];
 
 $q=mysql_query("SELECT\n".
 "category.cat_name\n".
 "FROM\n".
 "category\n".
 "WHERE\n".
-"category.cat_name LIKE '%{$cate_name}' OR\n".
-"category.cat_name LIKE '{$cate_name}%' OR\n".
-"category.cat_name LIKE '%{$cate_name}%'");
+"category.cat_name LIKE '%{$cat_name}' OR\n".
+"category.cat_name LIKE '{$cat_name}%' OR\n".
+"category.cat_name LIKE '%{$cat_name}%'");
 
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;

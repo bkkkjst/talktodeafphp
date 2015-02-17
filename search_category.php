@@ -16,8 +16,8 @@ $q=mysql_query("SELECT\n".
 "category\n".
 "WHERE\n".
 "category.cat_name LIKE '%{$cate_name}' OR\n".
-"category.cat_name = '{$cate_name}%' OR\n".
-"category.cat_name = '%{$cate_name}%'");
+"category.cat_name LIKE '{$cate_name}%' OR\n".
+"category.cat_name LIKE '%{$cate_name}%'");
 
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;

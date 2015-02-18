@@ -19,7 +19,7 @@ $q=mysql_query("SELECT\n".
 "FROM\n".
 "place");
 
-$response["place_detail"] = array();
+//$response["place_detail"] = array();
 
 while($e=mysql_fetch_assoc($q)){
 	
@@ -33,6 +33,7 @@ while($e=mysql_fetch_assoc($q)){
 	$place_detail["longitude"]=$row["longitude"];
 	
 	//$output[]=$e;
+	print jsonRemoveUnicodeSequences($place_detail);
 	}
        
 
@@ -43,6 +44,6 @@ function jsonRemoveUnicodeSequences($struct) {
 }   
    
 //print(json_encode($output));
-print jsonRemoveUnicodeSequences($place_detail);
+
 mysql_close();
 ?>

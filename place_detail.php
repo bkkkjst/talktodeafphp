@@ -18,14 +18,31 @@ $q=mysql_query("SELECT\n".
 "place.longitude\n".
 "FROM\n".
 "place");
-while($e=mysql_fetch_assoc($q))
-       $output[]=$e;
 
+$response["place_detail"] = array();
+
+while($e=mysql_fetch_assoc($q)){
+	
+	$place_detail = array();
+	
+	$place_detail["id"]=$row["id"];
+	$place_detail["place_name"]=$row["place_name"];
+	$place_detail["address"]=$row["address"];
+	$place_detail["phone"]=$row["phone"];
+	$place_detail["latitude"]=$row["latitude"];
+	$place_detail["longitude"]=$row["longitude"];
+	
+	//$output[]=$e;
+	}
+       
+
+ 
+   
 function jsonRemoveUnicodeSequences($struct) {
    return @preg_replace("/\\\\u([a-f0-9]{4})/e", "iconv('UCS-4LE','UTF-8',pack('V', hexdec('U$1')))", json_encode($struct));
 }   
    
 //print(json_encode($output));
-print jsonRemoveUnicodeSequences($output);
+print jsonRemoveUnicodeSequences($place_detail);
 mysql_close();
 ?>

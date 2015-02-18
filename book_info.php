@@ -1,6 +1,10 @@
 <?php
-mysql_connect("127.10.75.2:3306","adminqALkDCf","reUky8W-Z5DB");
-mysql_select_db("t2d_db");
+include("connection.php");
+?>
+
+<?php
+mysql_connect($hostname,$username,$password);
+mysql_select_db($db_name);
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");

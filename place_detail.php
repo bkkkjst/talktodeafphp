@@ -25,12 +25,12 @@ while($e=mysql_fetch_assoc($q)){
 	
 	$place_detail = array();
 	
-	$place_detail["id"]=$row["id"];
-	$place_detail["place_name"]=$row["place_name"];
-	$place_detail["address"]=$row["address"];
-	$place_detail["phone"]=$row["phone"];
-	$place_detail["latitude"]=$row["latitude"];
-	$place_detail["longitude"]=$row["longitude"];
+	$place_detail["id"]=$e["id"];
+	$place_detail["place_name"]=$e["place_name"];
+	$place_detail["address"]=$e["address"];
+	$place_detail["phone"]=$e["phone"];
+	$place_detail["latitude"]=$e["latitude"];
+	$place_detail["longitude"]=$e["longitude"];
 	
 	//$output[]=$e;
 	print jsonRemoveUnicodeSequences($place_detail);

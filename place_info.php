@@ -44,7 +44,7 @@ function jsonRemoveUnicodeSequences($struct) {
 }   
    
 //print(json_encode($output));
-print jsonRemoveUnicodeSequences($place_detail);
+print jsonRemoveUnicodeSequences($output);
 
 mysql_close();
 ?>

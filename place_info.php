@@ -23,27 +23,28 @@ $q=mysql_query("SELECT\n".
 
 while($e=mysql_fetch_assoc($q)){
 	
-	$place_detail = array();
+	/* $place_detail = array();
 	
 	$place_detail["id"]=$e["id"];
 	$place_detail["place_name"]=$e["place_name"];
 	$place_detail["address"]=$e["address"];
 	$place_detail["phone"]=$e["phone"];
 	$place_detail["latitude"]=$e["latitude"];
-	$place_detail["longitude"]=$e["longitude"];
+	$place_detail["longitude"]=$e["longitude"]; */
 	
-	//$output[]=$e;
-	print jsonRemoveUnicodeSequences($place_detail);
+	$output[]=$e;
+	
 	}
        
 
  
    
 function jsonRemoveUnicodeSequences($struct) {
-   return @preg_replace("/\\\\u([a-f0-9]{4})/e", "iconv('UCS-4LE','UTF-8',pack('V', hexdec('U$1')))", json_encode($struct));
+   return preg_replace("/\\\\u([a-f0-9]{4})/e", "iconv('UCS-4LE','UTF-8',pack('V', hexdec('U$1')))", json_encode($struct));
 }   
    
 //print(json_encode($output));
+print jsonRemoveUnicodeSequences($place_detail);
 
 mysql_close();
 ?>

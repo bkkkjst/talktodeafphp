@@ -38,8 +38,20 @@ $q=mysql_query("SELECT\n".
 "vocabulary.category_id = category.id");
 			
 while($e=mysql_fetch_assoc($q)){
-	$output[]=$e;
-	print jsonRemoveUnicodeSequences($output);
+	
+	$vocabulary_detail = array();
+	
+	$vocabulary_detail["id"]=$e["id"];
+	$vocabulary_detail["voc_name"]=$e["voc_name"];
+	$vocabulary_detail["vid_name"]=$e["vid_name"];
+	$vocabulary_detail["type_name"]=$e["type_name"];
+	$vocabulary_detail["img_name"]=$e["img_name"];
+	$vocabulary_detail["exam"]=$e["exam"];
+	$vocabulary_detail["des_name"]=$e["des_name"];
+	$vocabulary_detail["cat_name"]=$e["cat_name"];
+	
+	//$output[]=$e;
+	print jsonRemoveUnicodeSequences($vocabulary_detail);
 }
        
 

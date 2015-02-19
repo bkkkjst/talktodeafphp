@@ -23,7 +23,7 @@ $q=mysql_query("SELECT\n".
 "FROM\n".
 "book\n".
 "WHERE\n".
-"book.book_name = '{$book_name}'");
+"book.book_name = '{$book_name}' order by book.book_name ASC");
 while($e=mysql_fetch_assoc($q)){
 	
 	$book_detail = array();

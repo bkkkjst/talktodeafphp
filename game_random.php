@@ -34,7 +34,7 @@ while(($e=mysql_fetch_assoc($q)) && ($f=mysql_fetch_assoc($r))){
 	/* $randdom_key1=array_rand($e,10);
 	$game[$randdom_key["id"]]; */
 	//$game["id"]=$e["id"];
-	$game["vid_name"]=$e["voc_name"];
+	$game["vid_name"]=$e["vid_name"];
 	$game["correct"]=$e["voc_name"];
 	$game["wrong"]=$f["voc_name"];
 	print jsonRemoveUnicodeSequences($game);

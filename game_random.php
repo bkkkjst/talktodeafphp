@@ -18,12 +18,12 @@ $q=mysql_query("SELECT\n".
 "vocabulary ,\n".
 "video\n".
 "WHERE\n".
-"vocabulary.video_id = video.id ");
+"vocabulary.video_id = video.id rand() limit 1");
 
 $r=mysql_query("SELECT\n".
 "video.vid_name\n".
 "FROM\n".
-"video ");
+"video rand() limit 1");
 
 while(($e=mysql_fetch_assoc($q)) && ($f=mysql_fetch_assoc($r))){
 

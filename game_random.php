@@ -11,27 +11,30 @@ mysql_query("SET NAMES UTF8");
 //$cat_name = $_GET['cat_name'];
 
 $q=mysql_query("SELECT\n".
-"vocabulary.id,\n".
 "vocabulary.voc_name,\n".
 "video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
 "video\n".
 "WHERE\n".
-"vocabulary.video_id = video.id order by rand() limit 1");
+"vocabulary.video_id = video.id\n".
+"ORDER BY RAND()\n".
+"LIMIT 1");
 
 $r=mysql_query("SELECT\n".
-"video.vid_name\n".
+"vocabulary.voc_name\n".
 "FROM\n".
-"video order by rand() limit 1");
+"vocabulary\n".
+"ORDER BY RAND()\n".
+"LIMIT 1");
 
 while(($e=mysql_fetch_assoc($q)) && ($f=mysql_fetch_assoc($r))){
 
 	$game = array();
 	/* $randdom_key1=array_rand($e,10);
 	$game[$randdom_key["id"]]; */
-	$game["id"]=$e["id"];
-	$game["voc_name"]=$e["voc_name"];
+	//$game["id"]=$e["id"];
+	$game["vid_name"]=$e["voc_name"];
 	$game["correct"]=$e["vid_name"];
 	$game["wrong"]=$f["vid_name"];
 	print jsonRemoveUnicodeSequences($game);

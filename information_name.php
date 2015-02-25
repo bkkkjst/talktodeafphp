@@ -9,7 +9,8 @@ $q=mysql_query("SELECT\n".
 "information.id,\n".
 "information.place_name\n".
 "FROM\n".
-"information");
+"information ORDER BY\n".
+"information.place_name ASC");
 			
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;

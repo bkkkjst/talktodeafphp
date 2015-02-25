@@ -21,8 +21,9 @@ $q=mysql_query("SELECT\n".
 
 
 	
-while($e=mysql_fetch_assoc($q))
+while($e=mysql_fetch_assoc($q)){
        $output[]=$e;
+}
 	   
 
 

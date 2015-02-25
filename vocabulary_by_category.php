@@ -17,7 +17,8 @@ $q=mysql_query("SELECT\n".
 "WHERE\n".
 "vocabulary.video_id = video.id AND\n".
 "category.cat_name = '".$cat_name."' AND\n".
-"vocabulary.category_id = category.id");
+"vocabulary.category_id = category.id ORDER BY\n".
+"vocabulary.voc_name ASC");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

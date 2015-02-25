@@ -31,6 +31,15 @@ function jsonRemoveUnicodeSequences($struct) {
 }   
    
 //print(json_encode($output));
-print jsonRemoveUnicodeSequences($output);
+
+if(!is_null($output)){print jsonRemoveUnicodeSequences($output);}else{
+	
+	$output=array("cat_name"=>"ไม่มี");
+	
+	while (list($key, $val) = each($output)) {
+    echo "[\""."$key\",\"$val\"]";
+	
+}}
+//print jsonRemoveUnicodeSequences($output);
 mysql_close();
 ?>

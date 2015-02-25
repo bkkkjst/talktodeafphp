@@ -17,7 +17,8 @@ $q=mysql_query("SELECT\n".
 "place.latitude,\n".
 "place.longitude\n".
 "FROM\n".
-"place");
+"place ORDER BY\n".
+"place.place_name ASC");
 
 //$response["place_detail"] = array();
 

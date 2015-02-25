@@ -21,10 +21,11 @@ $q=mysql_query("SELECT\n".
 
 //if(!empty($q)){
 	
-while($e=mysql_fetch_assoc($q)){
+while($e=mysql_fetch_assoc($q))
        $output[]=$e;
+	   
 	   echo $output[];
-}
+
 //}
 /* else{
 	$output[]="ไม่มี";

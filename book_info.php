@@ -9,7 +9,8 @@ mysql_select_db($db_name);
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
 
-$q=mysql_query("SELECT * FROM book");
+$q=mysql_query("SELECT * FROM book ORDER BY\n".
+"book.book_name ASC");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

@@ -19,9 +19,13 @@ $q=mysql_query("SELECT\n".
 "category.cat_name LIKE '{$cat_name}%' OR\n".
 "category.cat_name LIKE '%{$cat_name}%'");
 
-while($e=mysql_fetch_assoc($q))
+if(!empty($q)){
+while($e=mysql_fetch_assoc($q)){
        $output[]=$e;
-
+}
+}else{
+	$output[]="ไม่มี";
+}
 function jsonRemoveUnicodeSequences($struct) {
    return preg_replace("/\\\\u([a-f0-9]{4})/e", "iconv('UCS-4LE','UTF-8',pack('V', hexdec('U$1')))", json_encode($struct));
 }   

@@ -20,7 +20,7 @@ $q=mysql_query("SELECT\n".
 "category.cat_name LIKE '%{$cat_name}%'");
 
 
-if(mysql_fetch_assoc($q) > 0){
+if(mysql_num_rows($q) > 0){
 while($e=mysql_fetch_assoc($q)){
 		
        $output[]=$e;

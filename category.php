@@ -9,7 +9,14 @@ mysql_select_db($db_name);
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
 
-$q=mysql_query("SELECT * FROM category order by asc");
+$q=mysql_query("SELECT\n".
+"category.id,\n".
+"category.cat_name,\n".
+"category.img_id\n".
+"FROM\n".
+"category\n".
+"ORDER BY\n".
+"category.cat_name ASC");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

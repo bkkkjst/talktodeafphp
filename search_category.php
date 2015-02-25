@@ -37,7 +37,7 @@ if(!is_null($output)){print jsonRemoveUnicodeSequences($output);}else{
 	$output=array("cat_name"=>"ไม่มี");
 	
 	while (list($key, $val) = each($output)) {
-    echo "[\""."$key\",\"$val\"]";
+    echo "[{\"$key\",\"$val\"}]";
 	
 }}
 //print jsonRemoveUnicodeSequences($output);

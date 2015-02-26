@@ -9,6 +9,7 @@ mysql_select_db($db_name);
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
 $voc_name = $_GET['voc_name'];
+$cat_name = $_GET['cat_name'];
 
 
 
@@ -16,11 +17,12 @@ $voc_name = $_GET['voc_name'];
 $q=mysql_query("SELECT\n".
 "vocabulary.voc_name\n".
 "FROM\n".
-"vocabulary\n".
+"vocabulary ,\n".
+"category\n".
 "WHERE\n".
-"vocabulary.voc_name LIKE '%{$voc_name}' OR\n".
-"vocabulary.voc_name LIKE '{$voc_name}%' AND\n".
-"vocabulary.voc_name LIKE '%{$voc_name}%'");
+"category.cat_name = '{$cat_name}' AND\n".
+"vocabulary.voc_name LIKE '%{$voc_name}%' AND\n".
+"vocabulary.category_id = category.id");
 
 
 

@@ -68,8 +68,8 @@ return array(
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=talktodeaf_db',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'adminqALkDCf',
+			'password' => 'reUky8W-Z5DB',
 			'charset' => 'utf8',
 		),
 		

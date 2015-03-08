@@ -82,7 +82,7 @@ class VocabularyController extends Controller
 			
 			if ($vid_name = CUploadedFile::getInstance ( $video, 'vid_name' )) {
 				// path for file upload
-				$path = Yii::getPathOfAlias ( 'webroot' ) . '/actionvideos/';
+				$path = Yii::getPathOfAlias ( 'webroot' ) . '/action_video/';
 				
 				// use image name as username
 				$filename = $vid_name;

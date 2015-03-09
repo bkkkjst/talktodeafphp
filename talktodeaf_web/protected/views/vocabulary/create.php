@@ -14,9 +14,7 @@ $this->menu=array(
 	array('label'=>'Manage Vocabulary', 'url'=>array('admin')),
 );
 ?>
-
 <h1>สร้าง คำศัพท์</h1>
-
 <?php
 /* @var $this VocabularyController */
 /* @var $model Vocabulary */
@@ -43,15 +41,14 @@ $this->menu=array(
     
     <?php echo $form->errorSummary($example); ?>
     
-    <?php echo $form->errorSummary($video); ?>
+    <?php echo $form->errorSummary($actionvideo); ?>
     
+    <?php echo $form->errorSummary($speakvideo); ?>
 	
             <?php echo $form->textFieldControlGroup($vocabulary,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
 
             <?php echo $form->textAreaControlGroup($description,'des_name',array('span'=>5)); ?>
 
-            <?php //echo $form->textFieldControlGroup($vocabulary,'video_id',array('span'=>5)); ?>
-            
             
             
             
@@ -72,19 +69,17 @@ $this->menu=array(
 			
             <?php echo $form->textAreaControlGroup($example,'exam',array('span'=>5)); ?>
             
-            <?php 	echo $form->labelEx($video, 'vid_name');
-					echo $form->fileField($video, 'vid_name');
-					echo $form->error($video, 'vid_name'); 
+            <?php 	echo $form->labelEx($actionvideo, 'vid_name');
+					echo $form->fileField($actionvideo, 'vid_name');
+					echo $form->error($actionvideo, 'vid_name'); 
 					?>
 					
+			<?php 	
+					echo $form->labelEx($speakvideo, 'vid_name');
+					echo $form->fileField($speakvideo, 'vid_name');
+					echo $form->error($speakvideo, 'vid_name');  
+					?>
 					
-			<?php //echo $form->hiddenField($vocabulary, 'create_time'); ?>
-			
-            <?php //echo $form->textFieldControlGroup($model,'img_id',array('span'=>5)); ?>
-
-            <?php //echo $form->textFieldControlGroup($model,'create_time',array('span'=>5)); ?>
-
-            <?php //echo $form->textFieldControlGroup($model,'update_time',array('span'=>5)); ?>
 
         <div class="form-actions">
         <?php echo TbHtml::submitButton($vocabulary->isNewRecord ? 'Create' : 'Save',array(

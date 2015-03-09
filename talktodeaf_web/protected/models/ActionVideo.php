@@ -1,26 +1,20 @@
 <?php
 
 /**
- * This is the model class for table "place".
+ * This is the model class for table "action_video".
  *
- * The followings are the available columns in table 'place':
+ * The followings are the available columns in table 'action_video':
  * @property integer $id
- * @property string $place_name
- * @property string $address
- * @property string $phone
- * @property double $latitude
- * @property double $longitude
- * @property string $create_time
- * @property string $update_time
+ * @property string $vid_name
  */
-class Place extends CActiveRecord
+class ActionVideo extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
 	{
-		return 'place';
+		return 'action_video';
 	}
 
 	/**
@@ -31,12 +25,11 @@ class Place extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('latitude, longitude', 'numerical'),
-			array('place_name, address, phone', 'length', 'max'=>255),
-			array('create_time, update_time', 'safe'),
+			//array('vid_name', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, place_name, address, phone, latitude, longitude, create_time, update_time', 'safe', 'on'=>'search'),
+			array('id, vid_name', 'safe', 'on'=>'search'),
+			array('vid_name', 'file', 'types'=>'mp4, mov'),
 		);
 	}
 
@@ -57,14 +50,8 @@ class Place extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
-			'place_name' => 'ชื่อสถานที่',
-			'address' => 'ที่อยู่',
-			'phone' => 'เบอร์โทร',
-			'latitude' => 'ละติจูด',
-			'longitude' => 'ลองติจูด',
-			'create_time' => 'เวลาสร้าง',
-			'update_time' => 'เวลาอัพเดท',
+			'id' => 'ID',
+			'vid_name' => 'Vid Name',
 		);
 	}
 
@@ -87,13 +74,7 @@ class Place extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('place_name',$this->place_name,true);
-		$criteria->compare('address',$this->address,true);
-		$criteria->compare('phone',$this->phone,true);
-		$criteria->compare('latitude',$this->latitude);
-		$criteria->compare('longitude',$this->longitude);
-		$criteria->compare('create_time',$this->create_time,true);
-		$criteria->compare('update_time',$this->update_time,true);
+		$criteria->compare('vid_name',$this->vid_name,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
@@ -104,7 +85,7 @@ class Place extends CActiveRecord
 	 * Returns the static model of the specified AR class.
 	 * Please note that you should have this exact method in all your CActiveRecord descendants!
 	 * @param string $className active record class name.
-	 * @return Place the static model class
+	 * @return ActionVideo the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{

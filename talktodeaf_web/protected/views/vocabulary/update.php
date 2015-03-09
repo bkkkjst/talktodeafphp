@@ -4,11 +4,11 @@
 ?>
 
 <?php
-/* $this->breadcrumbs=array(
+$this->breadcrumbs=array(
 	'Vocabularies'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
 	'Update',
-); */
+);
 
 $this->menu=array(
 	array('label'=>'List Vocabulary', 'url'=>array('index')),
@@ -18,7 +18,7 @@ $this->menu=array(
 );
 ?>
 
-    <h1>อัพเดท คำศัพท์ <?php echo $model->id; ?></h1>
+    <h1>Update Vocabulary <?php echo $model->id; ?></h1>
 
 <?php
 /* @var $this VocabularyController */
@@ -43,31 +43,25 @@ $this->menu=array(
 
             <?php echo $form->textFieldControlGroup($model,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
 
+            <?php echo $form->textFieldControlGroup($model,'voc_engname',array('span'=>5,'maxlength'=>56)); ?>
+
             <?php echo $form->textFieldControlGroup($model,'des_id',array('span'=>5)); ?>
 
-            <?php echo $form->textFieldControlGroup($model,'video_id',array('span'=>5)); ?>
-            
-            <p>Category Name</p>
-            <?php 
-            	$records = Category::model()->findAll();
-    			  $list = CHtml::listData($records, 'id', 'cat_name');
-    			  echo CHtml::dropDownList('cat_name', null, $list, array('empty' => '(กรุณาเลือกหมวดของคำ)')); ?><BR>
-			<p>Type Name</p>
-    		<?php 
-            		$records = Type::model()->findAll();
-    			  $list = CHtml::listData($records, 'id', 'type_name');
-    			  echo CHtml::dropDownList('type_name', null, $list, array('empty' => '(กรุณาเลือกประเภทของคำ)')); ?>
-    			  
+            <?php echo $form->textFieldControlGroup($model,'action_video_id',array('span'=>5)); ?>
 
-            <?php echo $form->textAreaControlGroup($model,'example_id',array('span'=>5)); ?>
-            
-			<?php echo $form->hiddenField($model, 'update_time'); ?>
-			
-            <?php //echo $form->textFieldControlGroup($model,'img_id',array('span'=>5)); ?>
+            <?php echo $form->textFieldControlGroup($model,'speak_video_id',array('span'=>5)); ?>
 
-            <?php //echo $form->textFieldControlGroup($model,'create_time',array('span'=>5)); ?>
+            <?php echo $form->textFieldControlGroup($model,'category_id',array('span'=>5)); ?>
 
-            <?php //echo $form->textFieldControlGroup($model,'update_time',array('span'=>5)); ?>
+            <?php echo $form->textFieldControlGroup($model,'type_id',array('span'=>5)); ?>
+
+            <?php echo $form->textFieldControlGroup($model,'example_id',array('span'=>5)); ?>
+
+            <?php echo $form->textFieldControlGroup($model,'img_id',array('span'=>5)); ?>
+
+            <?php echo $form->textFieldControlGroup($model,'create_time',array('span'=>5)); ?>
+
+            <?php echo $form->textFieldControlGroup($model,'update_time',array('span'=>5)); ?>
 
         <div class="form-actions">
         <?php echo TbHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array(

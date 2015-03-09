@@ -6,8 +6,10 @@
  * The followings are the available columns in table 'vocabulary':
  * @property integer $id
  * @property string $voc_name
+ * @property string $voc_engname
  * @property integer $des_id
- * @property integer $video_id
+ * @property integer $action_video_id
+ * @property integer $speak_video_id
  * @property integer $category_id
  * @property integer $type_id
  * @property integer $example_id
@@ -15,7 +17,7 @@
  * @property string $create_time
  * @property string $update_time
  */
-class Vocabulary extends CActiveRecord 
+class Vocabulary extends CActiveRecord
 {
 	/**
 	 * @return string the associated database table name
@@ -33,13 +35,14 @@ class Vocabulary extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			
-			array('voc_name', 'length', 'max'=>56),
 			array('category_id,type_id', 'required'),
+			array('action_video_id, speak_video_id', 'required'),
+			//array('des_id, action_video_id, speak_video_id, category_id, type_id, example_id, img_id', 'numerical', 'integerOnly'=>true),
+			array('voc_name, voc_engname', 'length', 'max'=>56),
 			array('create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, voc_name, des_id, video_id, category_id, type_id, example_id, img_id, create_time, update_time', 'safe', 'on'=>'search'),
+			array('id, voc_name, voc_engname, des_id, action_video_id, speak_video_id, category_id, type_id, example_id, img_id, create_time, update_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -62,16 +65,18 @@ class Vocabulary extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
-			'voc_name' => 'ชื่อศัพท์',
-			'des_id' => 'รายละเอียดคำศัพท์',
-			'video_id' => 'วิดีโอ',
-			'category_id' => 'หมวด',
-			'type_id' => 'ประเภท',
-			'example_id' => 'ประโยคตัวอย่าง',
-			'img_id' => 'รูปภาพ',
-			'create_time' => 'เวลาสร้าง',
-			'update_time' => 'เวลาอัพเดท',
+			'id' => 'ID',
+			'voc_name' => 'Voc Name',
+			'voc_engname' => 'Voc Engname',
+			'des_id' => 'Des',
+			'action_video_id' => 'Action Video',
+			'speak_video_id' => 'Speak Video',
+			'category_id' => 'Category',
+			'type_id' => 'Type',
+			'example_id' => 'Example',
+			'img_id' => 'Img',
+			'create_time' => 'Create Time',
+			'update_time' => 'Update Time',
 		);
 	}
 
@@ -95,8 +100,10 @@ class Vocabulary extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('voc_name',$this->voc_name,true);
+		$criteria->compare('voc_engname',$this->voc_engname,true);
 		$criteria->compare('des_id',$this->des_id);
-		$criteria->compare('video_id',$this->video_id);
+		$criteria->compare('action_video_id',$this->action_video_id);
+		$criteria->compare('speak_video_id',$this->speak_video_id);
 		$criteria->compare('category_id',$this->category_id);
 		$criteria->compare('type_id',$this->type_id);
 		$criteria->compare('example_id',$this->example_id);

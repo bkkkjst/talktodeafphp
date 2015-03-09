@@ -13,18 +13,27 @@
 	<?php echo CHtml::encode($data->voc_name); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('voc_engname')); ?>:</b>
+	<?php echo CHtml::encode($data->voc_engname); ?>
+	<br />
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('des_id')); ?>:</b>
 	<?php echo CHtml::encode($data->des_id); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('video_id')); ?>:</b>
-	<?php echo CHtml::encode($data->video_id); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('action_video_id')); ?>:</b>
+	<?php echo CHtml::encode($data->action_video_id); ?>
+	<br />
+
+	<b><?php echo CHtml::encode($data->getAttributeLabel('speak_video_id')); ?>:</b>
+	<?php echo CHtml::encode($data->speak_video_id); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('category_id')); ?>:</b>
 	<?php echo CHtml::encode($data->category_id); ?>
 	<br />
 
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('type_id')); ?>:</b>
 	<?php echo CHtml::encode($data->type_id); ?>
 	<br />
@@ -33,7 +42,6 @@
 	<?php echo CHtml::encode($data->example_id); ?>
 	<br />
 
-	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('img_id')); ?>:</b>
 	<?php echo CHtml::encode($data->img_id); ?>
 	<br />

@@ -1,16 +1,16 @@
 <?php
-/* @var $this VocabularyController */
-/* @var $model Vocabulary */
+/* @var $this SpeakVideoController */
+/* @var $model SpeakVideo */
 
 
 $this->breadcrumbs=array(
-	'Vocabularies'=>array('index'),
+	'Speak Videos'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List Vocabulary', 'url'=>array('index')),
-	array('label'=>'Create Vocabulary', 'url'=>array('create')),
+	array('label'=>'List SpeakVideo', 'url'=>array('index')),
+	array('label'=>'Create SpeakVideo', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -19,7 +19,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$('#vocabulary-grid').yiiGridView('update', {
+	$('#speak-video-grid').yiiGridView('update', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -27,7 +27,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Vocabularies</h1>
+<h1>Manage Speak Videos</h1>
 
 <p>
     You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>
@@ -43,24 +43,12 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 </div><!-- search-form -->
 
 <?php $this->widget('bootstrap.widgets.TbGridView',array(
-	'id'=>'vocabulary-grid',
+	'id'=>'speak-video-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(
 		'id',
-		'voc_name',
-		'voc_engname',
-		/*'des_id',
-		 'action_video_id',
-		'speak_video_id',
-		
-		'category_id',
-		'type_id',
-		'example_id',
-		'img_id',
-		'create_time',
-		'update_time', */
-		
+		'vid_name',
 		array(
 			'class'=>'bootstrap.widgets.TbButtonColumn',
 		),

@@ -15,9 +15,13 @@
 
                     <?php echo $form->textFieldControlGroup($model,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
 
+                    <?php echo $form->textFieldControlGroup($model,'voc_engname',array('span'=>5,'maxlength'=>56)); ?>
+
                     <?php echo $form->textFieldControlGroup($model,'des_id',array('span'=>5)); ?>
 
-                    <?php echo $form->textFieldControlGroup($model,'video_id',array('span'=>5)); ?>
+                    <?php echo $form->textFieldControlGroup($model,'action_video_id',array('span'=>5)); ?>
+
+                    <?php echo $form->textFieldControlGroup($model,'speak_video_id',array('span'=>5)); ?>
 
                     <?php echo $form->textFieldControlGroup($model,'category_id',array('span'=>5)); ?>
 

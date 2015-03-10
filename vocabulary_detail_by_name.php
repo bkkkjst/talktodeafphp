@@ -44,6 +44,7 @@ while($e=mysql_fetch_assoc($q)){
 	
 	$vocabulary_detail["id"]=$e["id"];
 	$vocabulary_detail["voc_name"]=$e["voc_name"];
+	$vocabulary_detail["voc_engname"]=$e["voc_engname"];
 	$vocabulary_detail["vid_name"]=$e["vid_name"];
 	$vocabulary_detail["type_name"]=$e["type_name"];
 	$vocabulary_detail["img_name"]=$e["img_name"];

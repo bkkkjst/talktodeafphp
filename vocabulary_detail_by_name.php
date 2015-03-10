@@ -14,7 +14,7 @@ $voc_name = $_GET['voc_name'];
 $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".
 "vocabulary.voc_name,\n".
-"video.vid_name,\n".
+"action_video.vid_name,\n".
 "type.type_name,\n".
 "image.img_name,\n".
 "example.exam,\n".
@@ -22,7 +22,7 @@ $q=mysql_query("SELECT\n".
 "category.cat_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"video ,\n".
+"action_video ,\n".
 "type ,\n".
 "image ,\n".
 "example ,\n".
@@ -30,7 +30,7 @@ $q=mysql_query("SELECT\n".
 "category\n".
 "WHERE\n".
 "vocabulary.voc_name = '".$voc_name."' AND\n".
-"vocabulary.video_id = video.id AND\n".
+"vocabulary.action_video_id = action_video.id AND\n".
 "vocabulary.type_id = type.id AND\n".
 "vocabulary.img_id = image.id AND\n".
 "vocabulary.example_id = example.id AND\n".

@@ -17,7 +17,7 @@ $q=mysql_query("SELECT\n".
 "vocabulary ,\n".
 "action_video\n".
 "WHERE\n".
-"vocabulary.video_id = action_video.id\n".
+"vocabulary.action_video_id = action_video.id\n".
 "ORDER BY RAND()\n".
 "LIMIT 1");
 

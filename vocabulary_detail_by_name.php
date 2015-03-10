@@ -15,28 +15,25 @@ $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".
 "vocabulary.voc_name,\n".
 "vocabulary.voc_engname,\n".
-"action_video.vid_name,\n".
 "type.type_name,\n".
-"image.img_name,\n".
 "example.exam,\n".
 "description.des_name,\n".
-"category.cat_name\n".
+"category.cat_name,\n".
+"action_video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"action_video ,\n".
 "type ,\n".
-"image ,\n".
 "example ,\n".
 "description ,\n".
-"category\n".
+"category ,\n".
+"action_video\n".
 "WHERE\n".
-"vocabulary.voc_name = '".$voc_name."' AND\n".
-"vocabulary.action_video_id = action_video.id AND\n".
+"vocabulary.voc_name = '{$voc_name}' AND\n".
 "vocabulary.type_id = type.id AND\n".
-//"vocabulary.img_id = image.id AND\n".
 "vocabulary.example_id = example.id AND\n".
 "vocabulary.des_id = description.id AND\n".
-"vocabulary.category_id = category.id");
+"vocabulary.category_id = category.id AND\n".
+"vocabulary.action_video_id = action_video.id");
 			
 while($e=mysql_fetch_assoc($q)){
 	

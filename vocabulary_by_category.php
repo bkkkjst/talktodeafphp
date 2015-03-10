@@ -9,13 +9,13 @@ $cat_name =$_GET['cat_name'];
 $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".
 "vocabulary.voc_name,\n".
-"video.vid_name\n".
+"action_video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"video ,\n".
+"action_video ,\n".
 "category\n".
 "WHERE\n".
-"vocabulary.video_id = video.id AND\n".
+"vocabulary.video_id = action_video.id AND\n".
 "category.cat_name = '".$cat_name."' AND\n".
 "vocabulary.category_id = category.id ORDER BY\n".
 "vocabulary.voc_name ASC");

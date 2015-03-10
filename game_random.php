@@ -12,12 +12,12 @@ mysql_query("SET NAMES UTF8");
 
 $q=mysql_query("SELECT\n".
 "vocabulary.voc_name,\n".
-"video.vid_name\n".
+"action_video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"video\n".
+"action_video\n".
 "WHERE\n".
-"vocabulary.video_id = video.id\n".
+"vocabulary.video_id = action_video.id\n".
 "ORDER BY RAND()\n".
 "LIMIT 1");
 

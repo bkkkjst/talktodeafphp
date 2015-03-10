@@ -14,6 +14,7 @@ $voc_name = $_GET['voc_name'];
 $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".
 "vocabulary.voc_name,\n".
+"vocabulary.voc_engname,\n".
 "action_video.vid_name,\n".
 "type.type_name,\n".
 "image.img_name,\n".

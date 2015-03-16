@@ -4,21 +4,21 @@
 ?>
 
 <?php
-$this->breadcrumbs=array(
+/* $this->breadcrumbs=array(
 	'Vocabularies'=>array('index'),
 	$model->id=>array('view','id'=>$model->id),
 	'Update',
-);
+); */
 
 $this->menu=array(
 	array('label'=>'List Vocabulary', 'url'=>array('index')),
 	array('label'=>'Create Vocabulary', 'url'=>array('create')),
-	array('label'=>'View Vocabulary', 'url'=>array('view', 'id'=>$model->id)),
+	array('label'=>'View Vocabulary', 'url'=>array('view', 'id'=>$vocabulary->id)),
 	array('label'=>'Manage Vocabulary', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>Update Vocabulary <?php echo $model->id; ?></h1>
+    <h1>อัพเดท คำศัพท์ <?php echo $vocabulary->voc_name; ?></h1>
 
 <?php
 /* @var $this VocabularyController */
@@ -30,6 +30,7 @@ $this->menu=array(
 
     <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
 	'id'=>'vocabulary-form',
+    'htmlOptions'=>array('enctype'=>'multipart/form-data'),
 	// Please note: When you enable ajax validation, make sure the corresponding
 	// controller action is handling ajax validation correctly.
 	// There is a call to performAjaxValidation() commented in generated controller code.
@@ -38,33 +39,57 @@ $this->menu=array(
 )); ?>
 
     <p class="help-block">Fields with <span class="required">*</span> are required.</p>
+    
+	<?php echo $form->errorSummary($description); ?>
+	
+    <?php echo $form->errorSummary($vocabulary); ?>
+    
+    <?php echo $form->errorSummary($example); ?>
+    
+    <?php echo $form->errorSummary($actionvideo); ?>
+    
+    <?php echo $form->errorSummary($speakvideo); ?>
+	
+            <?php echo $form->textFieldControlGroup($vocabulary,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
 
-    <?php echo $form->errorSummary($model); ?>
+            <?php echo $form->textFieldControlGroup($vocabulary,'voc_engname',array('span'=>5)); ?>
 
-            <?php echo $form->textFieldControlGroup($model,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
+            <?php echo $form->textAreaControlGroup($description,'des_name',array('span'=>5)); ?>
 
-            <?php echo $form->textFieldControlGroup($model,'voc_engname',array('span'=>5,'maxlength'=>56)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'des_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'action_video_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'speak_video_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'category_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'type_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'example_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'img_id',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'create_time',array('span'=>5)); ?>
-
-            <?php echo $form->textFieldControlGroup($model,'update_time',array('span'=>5)); ?>
+            
+            
+            
+    <?php echo $form->labelEx($vocabulary,'category_id'); ?>
+    
+    <?php echo $form->dropdownList($vocabulary,'category_id', 
+    		CHtml::listData(Category::model()->findAll(),'id','cat_name'), 
+    		array('prompt'=>'กรุณาเลือกหมวด')); ?>
+    <?php echo $form->error($vocabulary,'category.cat_name'); ?>
+    
+    
+    <?php echo $form->labelEx($vocabulary,'type_id'); ?>
+             <?php echo $form->dropdownList($vocabulary,'type_id', 
+    		CHtml::listData(Type::model()->findAll(),'id','type_name'), 
+    		array('prompt'=>'กรุณาเลือกประเภท')); ?>
+    <?php echo $form->error($vocabulary,'type.type_name'); ?>
+		
+			
+            <?php echo $form->textAreaControlGroup($example,'exam',array('span'=>5)); ?>
+            
+            <?php 	echo $form->labelEx($actionvideo, 'vid_name');
+					echo $form->fileField($actionvideo, 'vid_name');
+					echo $form->error($actionvideo, 'vid_name'); 
+					?>
+					
+			<?php 	
+					echo $form->labelEx($speakvideo, 'vid_name');
+					echo $form->fileField($speakvideo, 'vid_name');
+					echo $form->error($speakvideo, 'vid_name');  
+					?>
+					
 
         <div class="form-actions">
-        <?php echo TbHtml::submitButton($model->isNewRecord ? 'Create' : 'Save',array(
+        <?php echo TbHtml::submitButton($vocabulary->isNewRecord ? 'Create' : 'Save',array(
 		    'color'=>TbHtml::BUTTON_COLOR_PRIMARY,
 		    'size'=>TbHtml::BUTTON_SIZE_LARGE,
 		)); ?>

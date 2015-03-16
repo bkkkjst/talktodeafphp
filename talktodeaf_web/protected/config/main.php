@@ -5,26 +5,30 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+Yii::setPathOfAlias('yiibootflat', realpath(__DIR__ . '/../extensions/yiibootflat'));
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+		
 	'name'=>'พูดผ่านภาษามือ',
 	'timeZone'=>'Asia/Bangkok',
 	'sourceLanguage'=>'th',
 	'language'=>'th',
+	'theme'=>'hebo',
 	// preloading 'log' component
 	'preload'=>array('log'),
-		'aliases' => array(
+		 'aliases' => array(
 				'bootstrap' => realpath(__DIR__ . '/../extensions/bootstrap'), // change this if necessary
-		),
+		), 
+		
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
-		'bootstrap.widgets.*',
+		 'bootstrap.widgets.*',
 		 'bootstrap.helpers.TbHtml',
 			'bootstrap.helpers.TbHtml',
 			'bootstrap.helpers.TbArray',
-			'bootstrap.behaviors.TbWidget', 
+			'bootstrap.behaviors.TbWidget',  
 	),
 
 	'modules'=>array(
@@ -46,9 +50,14 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		'bootstrap' => array(
+		 'bootstrap' => array(
 			'class' => 'bootstrap.components.TbApi',
 		),
+        'yiibootflat' => array(
+            'class' => 'yiibootflat.components.YbfComponent'),
+			/* 'booster' => array(
+					'class' => 'path.alias.to.booster.components.Booster',
+			), */
 		// uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
@@ -66,10 +75,10 @@ return array(
 		// uncomment the following to use a MySQL database
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=127.10.75.2:3306;dbname=talktodeaf_db',
+			'connectionString' => 'mysql:host=localhost;dbname=talktodeaf_db',
 			'emulatePrepare' => true,
-			'username' => 'adminqALkDCf',
-			'password' => 'reUky8W-Z5DB',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
 		),
 		

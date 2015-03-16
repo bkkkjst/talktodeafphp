@@ -51,7 +51,7 @@ class ActionVideo extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'vid_name' => 'Vid Name',
+			'vid_name' => 'วิดีโอฝึกท่าทาง',
 		);
 	}
 

@@ -50,7 +50,7 @@ class Type extends CActiveRecord
 	{
 		return array(
 			'id' => 'ไอดี',
-			'type_name' => 'ชื่อประเภท',
+			'type_name' => 'ประเภท',
 		);
 	}
 

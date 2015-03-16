@@ -49,8 +49,8 @@ class Example extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'exam' => 'Exam',
+			'id' => 'ไอดี',
+			'exam' => 'ตัวอย่างประโยค',
 		);
 	}
 

@@ -108,7 +108,19 @@ class BookController extends Controller
 		// $this->performAjaxValidation($model);
 
 		if (isset($_POST['Book'])) {
-			$model->attributes=$_POST['Book'];
+            $model->attributes = $_POST ['Book'];
+            if ($image = CUploadedFile::getInstance ( $model, 'book_image' )) {
+                // path for file upload
+                $path = Yii::getPathOfAlias ( 'webroot' ) . '/images/';
+                // use image name as username
+                $filename = $image;
+                // uploaded image to path
+                $image->saveAs ( $path . $filename );
+            } else
+                // this for no image file upload
+                $filename = 'noimage.jpg';
+            // set another user attribute
+            $model->book_image = $filename;
 			if ($model->save()) {
 				$this->redirect(array('view','id'=>$model->id));
 			}

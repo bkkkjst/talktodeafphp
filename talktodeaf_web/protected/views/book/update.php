@@ -18,7 +18,7 @@ $this->menu=array(
 );
 ?>
 
-    <h1>อัพเดท หนังสือ <?php echo $model->id; ?></h1>
+    <h1>อัพเดท หนังสือ <?php echo $model->book_name; ?></h1>
 
 <?php
 /* @var $this BookController */
@@ -53,7 +53,10 @@ $this->menu=array(
 
             <?php echo $form->textFieldControlGroup($model,'book_publisher',array('span'=>5,'maxlength'=>255)); ?>
 
-            <?php echo $form->textFieldControlGroup($model,'book_image',array('span'=>5,'maxlength'=>255)); ?>
+    <?php 	echo $form->labelEx($model, 'book_image');
+    echo $form->fileField($model, 'book_image');
+    echo $form->error($model, 'book_image');
+    ?>
             
 			<?php echo $form->hiddenField($model, 'update_time'); ?>
 			

@@ -53,8 +53,8 @@ class Category extends CActiveRecord
 	{
 		return array(
 			'id' => 'ไอดี',
-			'cat_name' => 'ชื่อหมวด',
-			'img_id' => 'ชื่อรูปภาพ',
+			'cat_name' => 'หมวด',
+			'img_id' => 'รูปภาพ',
 		);
 	}
 

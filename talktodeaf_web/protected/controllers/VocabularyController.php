@@ -16,6 +16,7 @@ class VocabularyController extends Controller
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
+				
 		);
 	}
 
@@ -52,7 +53,7 @@ class VocabularyController extends Controller
 	public function actionView($id)
 	{
 		$this->render('view',array(
-			'model'=>$this->loadModel($id),
+			'vocabulary'=>$this->loadModel($id),
 		));
 	}
 
@@ -140,12 +141,76 @@ class VocabularyController extends Controller
 	 */
 	public function actionUpdate($id)
 	{
-		$model=$this->loadModel($id);
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
+		$vocabulary=$this->loadModel($id);
+        $description = Description::model()->findByPk($id);
+        $example = Example::model()->findByPk($id);
+		$actionvideo = ActionVideo::model()->findByPk($id);
+		$speakvideo = SpeakVideo::model()->findByPk($id);
+		
+		
+		
+		$vocabulary->update_time = date("Y-m-d H:i");
+		
 		if (isset($_POST['Vocabulary'])) {
+				
+			$description->attributes=$_POST['Description'];
+			$vocabulary->attributes=$_POST['Vocabulary'];
+			$example->attributes=$_POST['Example'];
+			$actionvideo->attributes=$_POST['ActionVideo'];
+			$speakvideo->attributes=$_POST['SpeakVideo'];
+				
+			if ($vid_name = CUploadedFile::getInstance ( $actionvideo, 'vid_name' )) {
+				// path for file upload
+				$path = Yii::getPathOfAlias ( 'webroot' ) . '/action_video/';
+		
+				// use image name as username
+				$filename = $vid_name;
+				// uploaded image to path
+				$vid_name->saveAs ( $path . $filename );
+			} else
+				// this for no image file upload
+				$filename = 'noimage.jpg';
+			// set another user attribute
+			$actionvideo->vid_name = $filename;
+				
+			if ($vid_name2 = CUploadedFile::getInstance ( $speakvideo, 'vid_name' )) {
+				// path for file upload
+				$path = Yii::getPathOfAlias ( 'webroot' ) . '/speak_video/';
+					
+				// use image name as username
+				$filename = $vid_name2;
+				// uploaded image to path
+				$vid_name2->saveAs ( $path . $filename );
+			} else
+				// this for no image file upload
+				$filename = 'noimage.jpg';
+			// set another user attribute
+			$speakvideo->vid_name = $filename;
+				
+			if ($description->save() && $example->save() && $actionvideo->save()&& $speakvideo->save()){
+					
+				$vocabulary->des_id = $description-> id;
+				$vocabulary->example_id = $example-> id;
+				$vocabulary->action_video_id = $actionvideo-> id;
+				$vocabulary->speak_video_id = $speakvideo-> id;
+					
+				$vocabulary->save();
+				$this->redirect(array('view','id'=>$vocabulary->id));
+			}
+		
+				
+		}
+		
+		$this->render('update',array(
+		
+				'description'=>$description,
+				'vocabulary'=>$vocabulary,
+				'example'=>$example,
+				'actionvideo'=>$actionvideo,
+				'speakvideo'=>$speakvideo,
+		
+		));
+		/* if (isset($_POST['Vocabulary'])) {
 			$model->attributes=$_POST['Vocabulary'];
 			if ($model->save()) {
 				$this->redirect(array('view','id'=>$model->id));
@@ -154,7 +219,7 @@ class VocabularyController extends Controller
 
 		$this->render('update',array(
 			'model'=>$model,
-		));
+		)); */
 	}
 
 	/**
@@ -182,10 +247,15 @@ class VocabularyController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Vocabulary');
-		$this->render('index',array(
-			'dataProvider'=>$dataProvider,
-		));
+        $model=new Vocabulary('search');
+        $model->unsetAttributes();  // clear any default values
+        if (isset($_GET['Vocabulary'])) {
+            $model->attributes=$_GET['Vocabulary'];
+        }
+
+        $this->render('admin',array(
+            'model'=>$model,
+        ));
 	}
 
 	/**

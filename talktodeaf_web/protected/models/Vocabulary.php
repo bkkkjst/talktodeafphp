@@ -54,8 +54,12 @@ class Vocabulary extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-				'descriptions' => array(self::HAS_ONE, 'Description', 'id'),
+				'description' => array(self::BELONGS_TO, 'Description', 'des_id'),
 				'category' => array(self::BELONGS_TO, 'Category', 'category_id'),
+                'type' => array(self::BELONGS_TO, 'Type', 'type_id'),
+                'example' => array(self::BELONGS_TO, 'Example', 'example_id'),
+                'actionvideo' => array(self::BELONGS_TO, 'ActionVideo', 'action_video_id'),
+                'speakvideo' => array(self::BELONGS_TO, 'SpeakVideo', 'speak_video_id'),
 		);
 	}
 
@@ -65,18 +69,18 @@ class Vocabulary extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'voc_name' => 'Voc Name',
-			'voc_engname' => 'Voc Engname',
-			'des_id' => 'Des',
-			'action_video_id' => 'Action Video',
-			'speak_video_id' => 'Speak Video',
-			'category_id' => 'Category',
-			'type_id' => 'Type',
-			'example_id' => 'Example',
-			'img_id' => 'Img',
-			'create_time' => 'Create Time',
-			'update_time' => 'Update Time',
+			'id' => 'ไอดี',
+			'voc_name' => 'คำศัพท์',
+			'voc_engname' => 'คำศัพท์ภาษาอังกฤษ',
+			'des_id' => 'ความหมาย',
+			'action_video_id' => 'วิดีโอท่าทาง',
+			'speak_video_id' => 'วิดีโอพูด',
+			'category_id' => 'หมวด',
+			'type_id' => 'ประเภท',
+			'example_id' => 'ประโยคตัวอย่าง',
+			'img_id' => 'รูปภาพ',
+			'create_time' => 'เวลาสร้าง',
+			'update_time' => 'เวลาอัพเดท',
 		);
 	}
 

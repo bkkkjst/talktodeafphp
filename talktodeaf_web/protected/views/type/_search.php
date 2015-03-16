@@ -11,7 +11,6 @@
 	'method'=>'get',
 )); ?>
 
-                    <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
                     <?php echo $form->textFieldControlGroup($model,'type_name',array('span'=>5,'maxlength'=>255)); ?>
 

@@ -50,8 +50,8 @@ class Description extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
-			'des_name' => 'รายละเอียดคำศัพท์',
+			'id' => 'ไอดี',
+			'des_name' => 'ความหมาย',
 		);
 	}
 

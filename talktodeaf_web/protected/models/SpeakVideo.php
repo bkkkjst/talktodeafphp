@@ -51,7 +51,7 @@ class SpeakVideo extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'vid_name' => 'Vid Name',
+			'vid_name' => 'วิดีโอฝึกพูด',
 		);
 	}
 

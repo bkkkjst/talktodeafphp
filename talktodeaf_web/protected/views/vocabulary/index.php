@@ -1,22 +1,68 @@
 <?php
 /* @var $this VocabularyController */
-/* @var $dataProvider CActiveDataProvider */
-?>
+/* @var $model Vocabulary */
 
-<?php
+
 $this->breadcrumbs=array(
-	'Vocabularies',
+    'Vocabularies'=>array('index'),
+    'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'Create Vocabulary','url'=>array('create')),
-	array('label'=>'Manage Vocabulary','url'=>array('admin')),
+    array('label'=>'List Vocabulary', 'url'=>array('index')),
+    array('label'=>'Create Vocabulary', 'url'=>array('create')),
 );
+
+Yii::app()->clientScript->registerScript('search', "
+$('.search-button').click(function(){
+	$('.search-form').toggle();
+	return false;
+});
+$('.search-form form').submit(function(){
+	$('#vocabulary-grid').yiiGridView('update', {
+		data: $(this).serialize()
+	});
+	return false;
+});
+");
 ?>
 
-<h1>Vocabularies</h1>
+    <h1>Manage Vocabularies</h1>
 
-<?php $this->widget('bootstrap.widgets.TbListView',array(
-	'dataProvider'=>$dataProvider,
-	'itemView'=>'_view',
+    <p>
+        You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>
+            &lt;&gt;</b>
+        or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+    </p>
+
+<?php echo CHtml::link('Advanced Search','#',array('class'=>'search-button btn')); ?>
+    <div class="search-form" style="display:none">
+        <?php $this->renderPartial('_search',array(
+            'model'=>$model,
+        )); ?>
+    </div><!-- search-form -->
+
+<?php $this->widget('bootstrap.widgets.TbGridView',array(
+    'id'=>'vocabulary-grid',
+    'dataProvider'=>$model->search(),
+    'filter'=>$model,
+    'columns'=>array(
+        'id',
+        'voc_name',
+        'voc_engname',
+        'category.cat_name',
+        'type.type_name',
+        'description.des_name',
+        //'actionvideo.vid_name',
+        //'speakvideo.vid_name',
+
+        'example.exam',
+        //'img_id',
+        //'create_time',
+        //'update_time',
+
+        array(
+            'class'=>'bootstrap.widgets.TbButtonColumn',
+        ),
+    ),
 )); ?>

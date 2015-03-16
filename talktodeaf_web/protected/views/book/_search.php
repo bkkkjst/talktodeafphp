@@ -11,25 +11,9 @@
 	'method'=>'get',
 )); ?>
 
-                    <?php echo $form->textFieldControlGroup($model,'id',array('span'=>5)); ?>
 
                     <?php echo $form->textFieldControlGroup($model,'book_name',array('span'=>5,'maxlength'=>255)); ?>
 
-                    <?php echo $form->textFieldControlGroup($model,'book_description',array('span'=>5,'maxlength'=>255)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'book_page_number',array('span'=>5)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'book_price',array('span'=>5,'maxlength'=>255)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'book_author',array('span'=>5,'maxlength'=>255)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'book_publisher',array('span'=>5,'maxlength'=>255)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'book_image',array('span'=>5,'maxlength'=>255)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'create_time',array('span'=>5)); ?>
-
-                    <?php echo $form->textFieldControlGroup($model,'update_time',array('span'=>5)); ?>
 
         <div class="form-actions">
         <?php echo TbHtml::submitButton('Search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>

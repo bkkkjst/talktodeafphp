@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hebo! - Responsive HTML5 Theme</title>
+    <title>พูดผ่านภาษามือ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="Simpson Moyo - Webapplicationthemes.com">
@@ -41,7 +41,7 @@
     
 
     <!-- The fav and touch icons -->
-    <link rel="shortcut icon" href="<?php echo $baseUrl;?>/img/ico/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo $baseUrl;?>/img/ico/favicon.png">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo $baseUrl;?>/img/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo $baseUrl;?>/img/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo $baseUrl;?>/img/ico/apple-touch-icon-72-precomposed.png">

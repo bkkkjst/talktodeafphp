@@ -17,6 +17,7 @@ $q=mysql_query("SELECT\n".
 "category\n".
 "ORDER BY\n".
 "category.cat_name ASC");
+
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 

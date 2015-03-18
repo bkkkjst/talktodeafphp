@@ -9,7 +9,7 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 ); */
 ?>
 
-<h1>Login</h1>
+<h1>เข้าสู่ระบบ</h1>
 
 <div class="form">
 <?php $form=$this->beginWidget('CActiveForm', array(
@@ -31,9 +31,6 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 		<?php echo $form->labelEx($model,'password'); ?>
 		<?php echo $form->passwordField($model,'password'); ?>
 		<?php echo $form->error($model,'password'); ?>
-		<p class="hint">
-			Hint: ท่านสามารถ Login โดยใช้ Username และ Password เป็น <kbd>admin</kbd>/<kbd>admin</kbd>.
-		</p>
 	</div>
 
 	<div class="row rememberMe">
@@ -43,7 +40,7 @@ $this->pageTitle=Yii::app()->name . ' - Login';
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton('Login'); ?>
+		<?php echo CHtml::submitButton('เข้าสู่ระบบ'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

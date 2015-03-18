@@ -11,14 +11,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Category', 'url'=>array('index')),
-	array('label'=>'Create Category', 'url'=>array('create')),
-	array('label'=>'View Category', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Category', 'url'=>array('admin')),
+	//array('label'=>'List Category', 'url'=>array('index')),
+	//array('label'=>'Create Category', 'url'=>array('create')),
+	//array('label'=>'View Category', 'url'=>array('view', 'id'=>$model->id)),
+    array('label'=>'ลบหมวดคำศัพท์', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องการลบหมวดของคำศัพท์นี้?')),
+	array('label'=>'กลับสู่หน้าจัดการหมวดคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>Update Category <?php echo $model->cat_name; ?></h1>
+    <h1>แก้ไขหมวดของคำศัพท์ หมวด: <?php echo $model->cat_name; ?></h1>
 
 <?php
 /* @var $this CategoryController */

@@ -10,15 +10,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Book', 'url'=>array('index')),
-	array('label'=>'Create Book', 'url'=>array('create')),
-	array('label'=>'Update Book', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Book', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Book', 'url'=>array('admin')),
+	//array('label'=>'List Book', 'url'=>array('index')),
+	//array('label'=>'Create Book', 'url'=>array('create')),
+	array('label'=>'แก้ไขข้อมูลหนังสือ', 'url'=>array('update', 'id'=>$model->id)),
+	array('label'=>'ลบหนังสือ', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบหนังสือเล่มนี้?')),
+	array('label'=>'กลับสู่หน้าจัดการหนังสือ', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Book #<?php echo $model->id; ?></h1>
+<h1>รายละเอียดหนังสือเล่มที่ #<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView',array(
     'htmlOptions' => array(

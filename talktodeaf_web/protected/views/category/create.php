@@ -10,12 +10,12 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Category', 'url'=>array('index')),
-	array('label'=>'Manage Category', 'url'=>array('admin')),
+	//array('label'=>'List Category', 'url'=>array('index')),
+	array('label'=>'กลับสู่หน้าจัดการหมวดคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Category</h1>
+<h1>เพิ่มหมวดคำศัพท์</h1>
 
 <?php
 /* @var $this CategoryController */

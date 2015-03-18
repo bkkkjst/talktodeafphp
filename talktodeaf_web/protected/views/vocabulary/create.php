@@ -11,11 +11,11 @@
 
 $this->menu=array(
 	//array('label'=>'List Vocabulary', 'url'=>array('index')),
-	array('label'=>'Manage Vocabulary', 'url'=>array('admin')),
+	array('label'=>'กลับสู่หน้าจัดการคำศัพท์', 'url'=>array('admin')),
 );
 
 ?>
-<h1>สร้าง คำศัพท์</h1>
+<h1>เพิ่มคำศัพท์</h1>
 <?php
 /* @var $this VocabularyController */
 /* @var $model Vocabulary */

@@ -11,14 +11,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Place', 'url'=>array('index')),
-	array('label'=>'Create Place', 'url'=>array('create')),
-	array('label'=>'View Place', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Place', 'url'=>array('admin')),
+	//array('label'=>'List Place', 'url'=>array('index')),
+	//array('label'=>'Create Place', 'url'=>array('create')),
+	//array('label'=>'View Place', 'url'=>array('view', 'id'=>$model->id)),
+    array('label'=>'ลบสถานที่', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบหนังสือเล่มนี้?')),
+	array('label'=>'กลับสู่หน้าจัดการสถานที่', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>อัพเดท ข้อมูลสถานที่ <?php echo $model->id; ?></h1>
+    <h1>แก้ไขข้อมูลสถานที่ ที่#<?php echo $model->id; ?></h1>
 
 <?php
 /* @var $this PlaceController */

@@ -10,12 +10,12 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Book', 'url'=>array('index')),
-	array('label'=>'Manage Book', 'url'=>array('admin')),
+	//array('label'=>'List Book', 'url'=>array('index')),
+	array('label'=>'กลับสู่หน้าจัดการหนังสือ', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Book</h1>
+<h1>เพิ่มหนังสือ</h1>
 
 <?php
 /* @var $this BookController */

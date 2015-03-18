@@ -9,8 +9,8 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Place', 'url'=>array('index')),
-	array('label'=>'Create Place', 'url'=>array('create')),
+	//array('label'=>'List Place', 'url'=>array('index')),
+	array('label'=>'เพิ่มสถานที่', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -27,12 +27,10 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Places</h1>
+<h1>สถานที่ที่มีการสอนภาษามือ</h1>
 
 <p>
-    You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>
-        &lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+    ท่านสามารถดูรายละเอียดสถานที่ รวมถึงสามารถแก้ไขและลบข้อมูลสถานที่ได้จากหน้านี้
 </p>
 
 <?php $this->renderPartial('_search',array(

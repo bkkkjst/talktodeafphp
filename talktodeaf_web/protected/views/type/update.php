@@ -11,14 +11,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Type', 'url'=>array('index')),
-	array('label'=>'Create Type', 'url'=>array('create')),
-	array('label'=>'View Type', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Type', 'url'=>array('admin')),
+	//array('label'=>'List Type', 'url'=>array('index')),
+	//array('label'=>'Create Type', 'url'=>array('create')),
+	//array('label'=>'View Type', 'url'=>array('view', 'id'=>$model->id)),
+    array('label'=>'ลบประเภทคำศัพท์', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบประเภทคำศัพท์นี้?')),
+	array('label'=>'กลับสู่หน้าจัดการประเภทคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>Update Type <?php echo $model->type_name; ?></h1>
+    <h1>แก้ไขประเภทคำศัพท์ ประเภท: <?php echo $model->type_name; ?></h1>
 
 <?php
 /* @var $this TypeController */

@@ -10,15 +10,15 @@
 );*/
 
 $this->menu=array(
-	array('label'=>'List Vocabulary', 'url'=>array('index')),
-	array('label'=>'Create Vocabulary', 'url'=>array('create')),
-	array('label'=>'Update Vocabulary', 'url'=>array('update', 'id'=>$vocabulary->id)),
-	array('label'=>'Delete Vocabulary', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$vocabulary->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Vocabulary', 'url'=>array('admin')),
+	//array('label'=>'List Vocabulary', 'url'=>array('index')),
+	//array('label'=>'Create Vocabulary', 'url'=>array('create')),
+	array('label'=>'แก้ไขคำศัพท์', 'url'=>array('update', 'id'=>$vocabulary->id)),
+	array('label'=>'ลบคำศัพท์', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$vocabulary->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบคำศัพท์คำนี้?')),
+	array('label'=>'กลับสู่หน้าจัดการคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Vocabulary #<?php echo $vocabulary->id; ?></h1>
+<h1>คำศัพท์คำที่ #<?php echo $vocabulary->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView',array(
 

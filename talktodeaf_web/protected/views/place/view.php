@@ -10,15 +10,15 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'List Place', 'url'=>array('index')),
-	array('label'=>'Create Place', 'url'=>array('create')),
-	array('label'=>'Update Place', 'url'=>array('update', 'id'=>$model->id)),
-	array('label'=>'Delete Place', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-	array('label'=>'Manage Place', 'url'=>array('admin')),
+	//array('label'=>'List Place', 'url'=>array('index')),
+	//array('label'=>'Create Place', 'url'=>array('create')),
+	array('label'=>'แก้ไขข้อมูลสถานที่', 'url'=>array('update', 'id'=>$model->id)),
+    array('label'=>'ลบสถานที่', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบสถานที่นี้?')),
+	array('label'=>'กลับสู่หน้าจัดการสถานที่', 'url'=>array('admin')),
 );
 ?>
 
-<h1>View Place #<?php echo $model->id; ?></h1>
+<h1>ดูข้อมูลสถานที่ ที่#<?php echo $model->id; ?></h1>
 
 <?php $this->widget('zii.widgets.CDetailView',array(
     'htmlOptions' => array(

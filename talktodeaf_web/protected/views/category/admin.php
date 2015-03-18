@@ -9,8 +9,8 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Category', 'url'=>array('index')),
-	array('label'=>'Create Category', 'url'=>array('create')),
+	//array('label'=>'List Category', 'url'=>array('index')),
+	array('label'=>'เพิ่มหมวดคำศัพท์', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -30,9 +30,7 @@ $('.search-form form').submit(function(){
 <h1>หมวดของคำศัพท์</h1>
 
 <p>
-    You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>
-        &lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+    ท่านสามารถดูรายละเอียดหมวดของคำศัพท์ รวมถึงสามารถแก้ไขข้อมูลหมวดของคำศัพท์ได้จากหน้านี้
 </p>
 
 <?php $this->renderPartial('_search',array(

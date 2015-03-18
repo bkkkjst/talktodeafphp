@@ -8610,3 +8610,36 @@ REQUEST_URI=/talktodeaf_web/index.php?r=type/admin
 in C:\wamp\www\talktodeaf_web\protected\views\layouts\column2.php (23)
 in C:\wamp\www\talktodeaf_web\protected\views\layouts\column2.php (23)
 in C:\wamp\www\talktodeaf_web\protected\controllers\TypeController.php (149)
+2015/03/18 21:21:01 [error] [php] Use of undefined constant vocabulary - assumed 'vocabulary' (C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php:95)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\talktodeaf_web\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf_web/index.php
+in C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php (95)
+in C:\wamp\www\talktodeaf_web\index.php (13)
+2015/03/18 21:21:22 [error] [php] Use of undefined constant Vocabulary - assumed 'Vocabulary' (C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php:95)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\talktodeaf_web\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf_web/index.php
+in C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php (95)
+in C:\wamp\www\talktodeaf_web\index.php (13)
+2015/03/18 21:21:55 [error] [php] Use of undefined constant Vocabulary - assumed 'Vocabulary' (C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php:95)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 C:\wamp\www\talktodeaf_web\index.php(13): CWebApplication->run()
+REQUEST_URI=/talktodeaf_web/index.php
+in C:\wamp\www\talktodeaf_web\protected\controllers\SiteController.php (95)
+in C:\wamp\www\talktodeaf_web\index.php (13)

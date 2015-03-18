@@ -11,14 +11,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Vocabulary', 'url'=>array('index')),
-	array('label'=>'Create Vocabulary', 'url'=>array('create')),
-	array('label'=>'View Vocabulary', 'url'=>array('view', 'id'=>$vocabulary->id)),
-	array('label'=>'Manage Vocabulary', 'url'=>array('admin')),
+	//array('label'=>'List Vocabulary', 'url'=>array('index')),
+	//array('label'=>'Create Vocabulary', 'url'=>array('create')),
+	//array('label'=>'View Vocabulary', 'url'=>array('view', 'id'=>$vocabulary->id)),
+    array('label'=>'ลบคำศัพท์', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$vocabulary->id),'confirm'=>'คุณแน่ใจหรือไม่ที่ต้องการลบคำศัพท์คำนี้')),
+	array('label'=>'กลับสู่หน้าจัดการคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>อัพเดท คำศัพท์ <?php echo $vocabulary->voc_name; ?></h1>
+    <h1>แก้ไขคำศัพท์: <?php echo $vocabulary->voc_name; ?></h1>
 
 <?php
 /* @var $this VocabularyController */

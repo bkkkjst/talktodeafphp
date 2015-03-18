@@ -10,12 +10,12 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Place', 'url'=>array('index')),
-	array('label'=>'Manage Place', 'url'=>array('admin')),
+	//array('label'=>'List Place', 'url'=>array('index')),
+	array('label'=>'กลับสู่หน้าจัดการสถานที่', 'url'=>array('admin')),
 ); 
 ?>
 
-<h1>สร้าง ข้อมูลสถานที่</h1>
+<h1>เพิ่มข้อมูลสถานที่</h1>
 
 <?php
 /* @var $this PlaceController */

@@ -11,14 +11,15 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Book', 'url'=>array('index')),
-	array('label'=>'Create Book', 'url'=>array('create')),
-	array('label'=>'View Book', 'url'=>array('view', 'id'=>$model->id)),
-	array('label'=>'Manage Book', 'url'=>array('admin')),
+	//array('label'=>'List Book', 'url'=>array('index')),
+	//array('label'=>'Create Book', 'url'=>array('create')),
+	//array('label'=>'View Book', 'url'=>array('view', 'id'=>$model->id)),
+    array('label'=>'ลบหนังสือ', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'ท่านแน่ใจหรือไม่ที่ต้องลบหนังสือเล่มนี้?')),
+	array('label'=>'กลับสู่หน้าจัดการหนังสือ', 'url'=>array('admin')),
 );
 ?>
 
-    <h1>อัพเดท หนังสือ <?php echo $model->book_name; ?></h1>
+    <h1>แก้ไขข้อมูลหนังสือ: <?php echo $model->book_name; ?></h1>
 
 <?php
 /* @var $this BookController */

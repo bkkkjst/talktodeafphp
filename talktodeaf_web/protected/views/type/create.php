@@ -10,12 +10,12 @@
 ); */
 
 $this->menu=array(
-	array('label'=>'List Type', 'url'=>array('index')),
-	array('label'=>'Manage Type', 'url'=>array('admin')),
+	//array('label'=>'List Type', 'url'=>array('index')),
+	array('label'=>'กลับสู่หน้าจัดการประเภทคำศัพท์', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Create Type</h1>
+<h1>เพิ่มประเภทคำศัพท์</h1>
 
 <?php
 /* @var $this TypeController */

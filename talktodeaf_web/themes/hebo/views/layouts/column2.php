@@ -9,7 +9,7 @@
                     <?php if(isset($this->breadcrumbs)):?>
                         <?php
                         $this->beginWidget('zii.widgets.CPortlet', array(
-                            'title'=>'Operations',
+                            'title'=>'เมนู',
                             'htmlOptions'=>array('class'=>'pull-right'),
                         ));
                         $this->widget('zii.widgets.CMenu', array(

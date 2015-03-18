@@ -10,7 +10,7 @@
 
 $this->menu=array(
 	//array('label'=>'List Vocabulary', 'url'=>array('index')),
-	array('label'=>'Create Vocabulary', 'url'=>array('create')),
+	array('label'=>'เพิ่มคำศัพท์', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -27,12 +27,10 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Vocabularies</h1>
+<h1>คำศัพท์</h1>
 
 <p>
-    You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>
-        &lt;&gt;</b>
-or <b>=</b>) at the beginning of each of your search values to specify how the comparison should be done.
+    ท่านสามารถดูรายละเอียดของคำศัพท์ รวมถึงสามารถแก้ไขข้อมูลและลบคำศัพท์ได้จากหน้านี้
 </p>
 
 

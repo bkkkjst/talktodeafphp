@@ -43,7 +43,8 @@ $('.search-form form').submit(function(){
 	'dataProvider'=>$model->search(),
 	//'filter'=>$model,
 	'columns'=>array(
-		'id',
+        array('name'=>'id',
+            'htmlOptions'=>array('style'=>'width: 35px')),
 		'place_name',
 		'address',
 		'phone',

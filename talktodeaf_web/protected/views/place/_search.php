@@ -11,12 +11,9 @@
 	'method'=>'get',
 )); ?>
 
-                    <?php echo $form->textFieldControlGroup($model,'place_name',array('span'=>5,'maxlength'=>255)); ?>
+                    <?php echo $form->textFieldControlGroup($model,'place_name',array('span'=>5,'maxlength'=>255));
+                          echo TbHtml::submitButton('search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));    ?>
 
-
-        <div class="form-actions">
-        <?php echo TbHtml::submitButton('search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>
-    </div>
 
     <?php $this->endWidget(); ?>
 

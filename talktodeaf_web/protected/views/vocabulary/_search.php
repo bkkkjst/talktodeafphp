@@ -12,12 +12,10 @@
 )); ?>
 
 
-                    <?php echo $form->textFieldControlGroup($model,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
+                    <?php echo $form->textFieldControlGroup($model,'voc_name',array('span'=>5,'maxlength'=>56));
+                          echo TbHtml::submitButton('search',array('color' => TbHtml::BUTTON_COLOR_PRIMARY,)); ?>
 
 
-        <div class="form-actions">
-        <?php echo TbHtml::submitButton('search',  array('color' => TbHtml::BUTTON_COLOR_PRIMARY,));?>
-    </div>
 
     <?php $this->endWidget(); ?>
 

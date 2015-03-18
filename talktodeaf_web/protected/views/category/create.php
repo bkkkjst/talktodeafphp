@@ -34,7 +34,7 @@ $this->menu=array(
 	'enableAjaxValidation'=>false,
 )); ?>
 
-    <p class="help-block">Fields with <span class="required">*</span> are required.</p>
+    <p>กรุณากรอกข้อมูลในช่องที่มีเครื่องหมาย( * )ให้ครบถ้วน</p>
 
     <?php echo $form->errorSummary($model); ?>
 

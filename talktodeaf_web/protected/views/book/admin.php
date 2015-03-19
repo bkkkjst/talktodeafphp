@@ -45,7 +45,7 @@ $('.search-form form').submit(function(){
 	//'filter'=>$model,
 	'columns'=>array(
         array('name'=>'id',
-            'htmlOptions'=>array('style'=>'width: 35px')),
+            'htmlOptions'=>array('style'=>'width: 45px')),
         array('name'=>'book_name',
             'htmlOptions'=>array('style'=>'width: 100px')),
         array('name'=>'book_description',
@@ -53,7 +53,7 @@ $('.search-form form').submit(function(){
         array('name'=>'book_page_number',
             'htmlOptions'=>array('style'=>'width: 80px')),
         array('name'=>'book_price',
-            'htmlOptions'=>array('style'=>'width: 95px')),
+            'htmlOptions'=>array('style'=>'width: 85px')),
         array('name'=>'book_author',
             'htmlOptions'=>array('style'=>'width: 85px')),
 		/*

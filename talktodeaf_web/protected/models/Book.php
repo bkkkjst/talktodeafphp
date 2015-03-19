@@ -75,7 +75,7 @@ class Book extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
+			'id' => 'ลำดับ',
 			'book_name' => 'ชื่อหนังสือ',
 			'book_description' => 'รายละเอียดหนังสือ',
 			'book_page_number' => 'จำนวนหน้า',

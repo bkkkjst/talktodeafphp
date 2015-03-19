@@ -52,7 +52,7 @@ class Category extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
+			'id' => 'ลำดับ',
 			'cat_name' => 'หมวด',
 			'img_id' => 'รูปภาพ',
 		);

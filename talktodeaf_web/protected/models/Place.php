@@ -57,7 +57,7 @@ class Place extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
+			'id' => 'ลำดับ',
 			'place_name' => 'ชื่อสถานที่',
 			'address' => 'ที่อยู่',
 			'phone' => 'เบอร์โทร',

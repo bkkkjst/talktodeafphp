@@ -69,7 +69,7 @@ class Vocabulary extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
+			'id' => 'ลำดับ',
 			'voc_name' => 'คำศัพท์',
 			'voc_engname' => 'คำศัพท์ภาษาอังกฤษ',
 			'des_id' => 'ความหมาย',

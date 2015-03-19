@@ -8739,3 +8739,9 @@ Stack trace:
 REQUEST_URI=/talktodeaf_web/index.php?r=site/login
 HTTP_REFERER=http://localhost:8080/talktodeaf_web/index.php?r=book/admin
 ---
+2015/03/19 23:43:42 [warning] [application] Failed to set unsafe attribute "vid_name" of "ActionVideo".
+in C:\wamp\www\talktodeaf_web\protected\controllers\VocabularyController.php (81)
+in C:\wamp\www\talktodeaf_web\index.php (13)
+2015/03/19 23:43:42 [warning] [application] Failed to set unsafe attribute "vid_name" of "SpeakVideo".
+in C:\wamp\www\talktodeaf_web\protected\controllers\VocabularyController.php (82)
+in C:\wamp\www\talktodeaf_web\index.php (13)

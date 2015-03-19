@@ -49,7 +49,7 @@ class Type extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ไอดี',
+			'id' => 'ลำดับ',
 			'type_name' => 'ประเภท',
 		);
 	}

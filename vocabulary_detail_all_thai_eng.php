@@ -34,6 +34,7 @@ $q=mysql_query("SELECT\n".
 "category ,\n".
 "action_video\n".
 "WHERE\n".
+"vocabulary.voc_name = '{$voc_name}' AND\n".
 "vocabulary.type_id = type.id AND\n".
 "vocabulary.speak_video_id = speak_video.id AND\n".
 "vocabulary.example_id = example.id AND\n".
@@ -47,17 +48,23 @@ while($e=mysql_fetch_assoc($q)){
 	
 	$vocabulary_detail["id"]=$e["id"];
 	$vocabulary_detail["voc_name"]=$e["voc_name"];
-	$vocabulary_detail["voc_engname"]=$e["voc_engname"];
+	
 	$vocabulary_detail["vid_name"]=$e["vid_name"];
 	$vocabulary_detail["type_name"]=$e["type_name"];
-	$vocabulary_detail["eng_type_name"]=$e["eng_type_name"];
+	
 	//$vocabulary_detail["img_name"]=$e["img_name"];
 	$vocabulary_detail["exam"]=$e["exam"];
-	$vocabulary_detail["eng_exam"]=$e["eng_exam"];
+	
 	$vocabulary_detail["des_name"]=$e["des_name"];
-	$vocabulary_detail["eng_des_name"]=$e["eng_des_name"];
+	
 	$vocabulary_detail["cat_name"]=$e["cat_name"];
-	$vocabulary_detail["eng_cat_name"]=$e["eng_cat_name"];
+
+$vocabulary_detail["voc_engname"]=$e["voc_engname"];
+$vocabulary_detail["eng_cat_name"]=$e["eng_cat_name"];
+$vocabulary_detail["eng_type_name"]=$e["eng_type_name"];
+$vocabulary_detail["eng_des_name"]=$e["eng_des_name"];
+$vocabulary_detail["eng_exam"]=$e["eng_exam"];
+
 
 	
 	//$output[]=$e;

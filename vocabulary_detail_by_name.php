@@ -14,7 +14,7 @@ $voc_name = $_GET['voc_name'];
 $q=mysql_query("SELECT\n".
 "vocabulary.id,\n".
 "vocabulary.voc_name,\n".
-"vocabulary.voc_engname,\n".
+"vocabulary.eng_voc_name,\n".
 "type.eng_type_name,\n".
 "type.type_name,\n".
 "speak_video.vid_name,\n".
@@ -59,7 +59,7 @@ while($e=mysql_fetch_assoc($q)){
 	
 	$vocabulary_detail["cat_name"]=$e["cat_name"];
 
-$vocabulary_detail["voc_engname"]=$e["voc_engname"];
+$vocabulary_detail["eng_voc_name"]=$e["eng_voc_name"];
 $vocabulary_detail["eng_cat_name"]=$e["eng_cat_name"];
 $vocabulary_detail["eng_type_name"]=$e["eng_type_name"];
 $vocabulary_detail["eng_des_name"]=$e["eng_des_name"];

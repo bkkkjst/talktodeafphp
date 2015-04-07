@@ -38,8 +38,8 @@ while(($e=mysql_fetch_assoc($q)) && ($f=mysql_fetch_assoc($r))){
 	//$game["id"]=$e["id"];
 	$game["vid_name"]=$e["vid_name"];
 	
-	$game["correct_eng"]=$e["eng_voc_name"];
-	$game["wrong_eng"]=$f["eng_voc_name"];
+	$game["eng_correct"]=$e["eng_voc_name"];
+	$game["eng_wrong"]=$f["eng_voc_name"];
 	$game["correct"]=$e["voc_name"];
 	$game["wrong"]=$f["voc_name"];
 	print jsonRemoveUnicodeSequences($game);

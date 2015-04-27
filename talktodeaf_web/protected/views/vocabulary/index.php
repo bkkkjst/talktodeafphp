@@ -49,7 +49,7 @@ $('.search-form form').submit(function(){
     'columns'=>array(
         'id',
         'voc_name',
-        'voc_engname',
+        //'voc_engname',
         'category.cat_name',
         'type.type_name',
         'description.des_name',

@@ -13,8 +13,8 @@
 	<?php echo CHtml::encode($data->voc_name); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('voc_engname')); ?>:</b>
-	<?php echo CHtml::encode($data->voc_engname); ?>
+	<b><?php /*echo CHtml::encode($data->getAttributeLabel('voc_engname')); */?><!--:</b>
+	--><?php /*echo CHtml::encode($data->voc_engname); */?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('des_id')); ?>:</b>

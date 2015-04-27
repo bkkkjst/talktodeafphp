@@ -104,7 +104,7 @@ class Vocabulary extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('voc_name',$this->voc_name,true);
-		$criteria->compare('voc_engname',$this->voc_engname,true);
+		//$criteria->compare('voc_engname',$this->voc_engname,true);
 		$criteria->compare('des_id',$this->des_id);
 		$criteria->compare('action_video_id',$this->action_video_id);
 		$criteria->compare('speak_video_id',$this->speak_video_id);

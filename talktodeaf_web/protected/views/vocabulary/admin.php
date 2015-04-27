@@ -48,8 +48,8 @@ $('.search-form form').submit(function(){
             'htmlOptions'=>array('style'=>'width: 45px')),
         array('name'=>'voc_name',
             'htmlOptions'=>array('style'=>'width: 65px')),
-        array('name'=>'voc_engname',
-            'htmlOptions'=>array('style'=>'width: 140px')),
+        /*array('name'=>'voc_engname',
+            'htmlOptions'=>array('style'=>'width: 140px')),*/
         array('name'=>'category.cat_name',
             'htmlOptions'=>array('style'=>'width: 80px')),
         array('name'=>'type.type_name',

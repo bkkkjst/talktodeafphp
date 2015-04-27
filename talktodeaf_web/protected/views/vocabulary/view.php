@@ -29,7 +29,7 @@ $this->menu=array(
     'attributes'=>array(
 		'id',
 		'voc_name',
-		'voc_engname',
+		//'voc_engname',
 		'description.des_name',
 		'actionvideo.vid_name',
 		'speakvideo.vid_name',

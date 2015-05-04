@@ -12,12 +12,22 @@ $q=mysql_query("SELECT\n".
 "action_video.vid_name\n".
 "FROM\n".
 "vocabulary ,\n".
-"action_video ,\n".
-"category\n".
+"type ,\n".
+"speak_video ,\n".
+"example ,\n".
+"description ,\n".
+"category ,\n".
+"action_video\n".
 "WHERE\n".
 "vocabulary.action_video_id = action_video.id AND\n".
 "category.cat_name = '".$cat_name."' AND\n".
 "vocabulary.category_id = category.id ORDER BY\n".
+"vocabulary.type_id = type.id AND\n".
+"vocabulary.speak_video_id = speak_video.id AND\n".
+"vocabulary.example_id = example.id AND\n".
+"vocabulary.des_id = description.id AND\n".
+"vocabulary.category_id = category.id AND\n".
+"vocabulary.action_video_id = action_video.id\n".
 "vocabulary.voc_name ASC");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;

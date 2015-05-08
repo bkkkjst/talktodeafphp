@@ -38,11 +38,11 @@ class Vocabulary extends CActiveRecord
 			array('category_id,type_id', 'required'),
 			array('action_video_id, speak_video_id', 'required'),
 			//array('des_id, action_video_id, speak_video_id, category_id, type_id, example_id, img_id', 'numerical', 'integerOnly'=>true),
-			array('voc_name, voc_engname', 'length', 'max'=>56),
+			array('voc_name', 'length', 'max'=>56),
 			array('create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('id, voc_name, voc_engname, des_id, action_video_id, speak_video_id, category_id, type_id, example_id, img_id, create_time, update_time', 'safe', 'on'=>'search'),
+			array('id, voc_name, des_id, action_video_id, speak_video_id, category_id, type_id, example_id, img_id, create_time, update_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -71,7 +71,7 @@ class Vocabulary extends CActiveRecord
 		return array(
 			'id' => 'ลำดับ',
 			'voc_name' => 'คำศัพท์',
-			'voc_engname' => 'คำศัพท์ภาษาอังกฤษ',
+			//'voc_engname' => 'คำศัพท์ภาษาอังกฤษ',
 			'des_id' => 'ความหมาย',
 			'action_video_id' => 'วิดีโอท่าทาง',
 			'speak_video_id' => 'วิดีโอพูด',

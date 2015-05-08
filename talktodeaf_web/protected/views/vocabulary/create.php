@@ -48,8 +48,6 @@ $this->menu=array(
 	
             <?php echo $form->textFieldControlGroup($vocabulary,'voc_name',array('span'=>5,'maxlength'=>56)); ?>
 
-            <?php /*echo $form->textFieldControlGroup($vocabulary,'voc_engname',array('span'=>5));*/ ?>
-
             <?php echo $form->textAreaControlGroup($description,'des_name',array('span'=>5)); ?>
 
             

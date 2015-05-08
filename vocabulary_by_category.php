@@ -1,6 +1,10 @@
 <?php
-mysql_connect("127.10.75.2:3306","adminqALkDCf","reUky8W-Z5DB");
-mysql_select_db("talktodeaf_db");
+include("connection.php");
+?>
+
+<?php
+mysql_connect($hostname,$username,$password);
+mysql_select_db($db_name);
 
 //ดึงข้อมูลออกมาในรูปแบบ UTF 8
 mysql_query("SET NAMES UTF8");
@@ -17,8 +21,8 @@ $q=mysql_query("SELECT\n".
 "WHERE\n".
 "vocabulary.action_video_id = action_video.id AND\n".
 "category.cat_name = '".$cat_name."' AND\n".
-"vocabulary.category_id = category.id ORDER BY\n".
-"vocabulary.voc_name ASC");
+"vocabulary.category_id = category.id ORDER BY abs\n".
+"(vocabulary.voc_name) ASC, vocabulary.voc_name ASC");
 while($e=mysql_fetch_assoc($q))
        $output[]=$e;
 
